@@ -1,0 +1,129 @@
+@regression @all
+Feature: To test all the regression scenarios
+
+  Scenario: TC001	P2P - Home page Landing - Not logged In User [90m# Regression.feature:4[0m
+    [33mGiven [0m[33mI am not logged in[0m
+    [33mWhen [0m[33mI navigate to PushToPlay homepage[0m
+    [33mThen [0m[33mFavourites should not have existing favourites[0m
+    [33mAnd [0m[33mCredit card details should not be displayed[0m
+    [33mAnd [0m[33mContinue button should not be enabled[0m
+
+  Scenario: TC002	P2P - Home page Landing - Logged In User [90m# Regression.feature:11[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mWhen [0m[33mI navigate to PushToPlay homepage[0m
+    [33mThen [0m[33mCredit card details should be displayed[0m
+    [33mAnd [0m[33mContinue button should be enabled[0m
+
+  Scenario: TC003	Login modal Pop up display [90m# Regression.feature:17[0m
+    [33mGiven [0m[33mI am not logged in[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI select Dips[0m
+    [33mAnd [0m[33mI enter the phone number[0m
+    [33mThen [0m[33mLogin modal should be displayed[0m
+
+  Scenario: TC004	Add a new CC                            [90m# Regression.feature:24[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI do not have existing credit card[0m
+    [33mThen [0m[33mI should be able to attach the credit card[0m
+    [33mAnd [0m[33mI should be able to CONTINUE the PushToPlay setup[0m
+
+  Scenario: TC005	Change the existing CC                  [90m# Regression.feature:31[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI click change credit card[0m
+    [33mThen [0m[33mI should be able to change the credit card[0m
+    [33mAnd [0m[33mI should be able to CONTINUE the PushToPlay setup[0m
+
+  Scenario: TC006	Terms and Conditions page display - Login and Logout state [90m# Regression.feature:38[0m
+    [33mGiven [0m[33mI am not logged in[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI click terms and conditions[0m
+    [33mThen [0m[33mTnC modal should be displayed[0m
+
+  Scenario: TC007	Push to Play Opt in for favourites       [90m# Regression.feature:44[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI select Favourites tab[0m
+    [33mThen [0m[33mI should be able to CONTINUE the PushToPlay setup[0m
+
+  Scenario: TC008	Push to Play Opt in for Dips             [90m# Regression.feature:50[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI select any dips from Dips tab[0m
+    [33mThen [0m[33mI should be able to CONTINUE the PushToPlay setup[0m
+
+  Scenario: TC009	Push to play cancel                    [90m# Regression.feature:56[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI select any dips from Dips tab[0m
+    [33mAnd [0m[33mI click continue[0m
+    [33mThen [0m[33mI should be able to CANCEL the PushToPlay setup[0m
+
+  Scenario: TC010	Push to play - Create a second opt in                          [90m# Regression.feature:63[0m
+    [33mGiven [0m[33mI have existing PushToPlay notification[0m
+    [33mWhen [0m[33mI start new PushToPlay opt in[0m
+    [33mThen [0m[33mI should get warning message that existing notification will be removed[0m
+
+  Scenario: TC011	Edit a favourite with same wager that is connected to P2P [90m# Regression.feature:68[0m
+    [33mGiven [0m[33mI have existing PushToPlay notification[0m
+    [33mWhen [0m[33mI edit favourite without changing the wager amount[0m
+    [33mThen [0m[33mmy PushToPlay settings should be updated accordingly[0m
+
+  Scenario: TC012	Edit a favourite with different wager that is connected to P2P [90m# Regression.feature:73[0m
+    [33mGiven [0m[33mI have existing PushToPlay notification[0m
+    [33mWhen [0m[33mI edit favourite by changing the wager amount[0m
+    [33mThen [0m[33mmy PushToPlay settings should be updated accordingly[0m
+
+  Scenario: TC013	Delete a favourite that is connected to P2P [90m# Regression.feature:78[0m
+    [33mGiven [0m[33mI have existing PushToPlay notification[0m
+    [33mWhen [0m[33mI delete the favourite[0m
+    [33mThen [0m[33mmy PushToPlay settings should be deleted[0m
+
+  Scenario: TC014	Error - Dips/Favourites selection validation [90m# Regression.feature:83[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI dont select any Dips or favourites[0m
+    [33mThen [0m[33mI should get error message for ticket type selection[0m
+
+  Scenario: TC015	Error - Phone number field validation- null, more than 8 digits [90m# Regression.feature:89[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI dont enter any phone number[0m
+    [33mThen [0m[33mI should get error message for empty phone number[0m
+    [33mAnd [0m[33mI dont enter NZ standard number[0m
+    [33mAnd [0m[33mI should get error message for invalid phone number[0m
+
+  Scenario: TC016	Error - Without Credit card  [90m# Regression.feature:97[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI dont enter any phone number[0m
+    [33mThen [0m[33mContinue button should not be enabled[0m
+
+  Scenario: TC017	Error - Duplicate mobile number              [90m# Regression.feature:103[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mI enter duplicate phone number[0m
+    [33mThen [0m[33mI should get error message for duplicate phone number[0m
+
+  Scenario: TC018	Error - Incorrect Code from SMS                      [90m# Regression.feature:109[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mAnd [0m[33mI start new PushToPlay opt in[0m
+    [33mWhen [0m[33mI enter Invalid verification code[0m
+    [33mThen [0m[33merror message should be displayed for wrong verification code[0m
+
+  Scenario: TC019	User Opts out                   [90m# Regression.feature:116[0m
+    [33mGiven [0m[33mI have existing PushToPlay notification[0m
+    [33mWhen [0m[33mI click Stop from Settings page[0m
+    [33mThen [0m[33mmy PushToPlay settings should be deleted[0m
+@smoke @all
+Feature: Smoke test
+
+  Scenario: User successfully completes PushToPlay set up   [90m# smoke.feature:4[0m
+    [33mGiven [0m[33mI am logged in already[0m
+    [33mAnd [0m[33mI navigate to PushToPlay homepage[0m
+    [33mWhen [0m[33mFill all the fields and Continue[0m
+    [33mAnd [0m[33mI enter correct verification code[0m
+    [33mThen [0m[33mI should get success message[0m
+    [33mAnd [0m[33mthe details should be displayed in My Accounts page[0m

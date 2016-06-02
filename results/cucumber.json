@@ -1,0 +1,1007 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "TC001\tP2P - Home page Landing - Not logged In User",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc001-p2p---home-page-landing---not-logged-in-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am not logged in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Favourites should not have existing favourites",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Credit card details should not be displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Continue button should not be enabled",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "TC002\tP2P - Home page Landing - Logged In User",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc002-p2p---home-page-landing---logged-in-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Credit card details should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Continue button should be enabled",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "TC003\tLogin modal Pop up display",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc003-login-modal-pop-up-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I am not logged in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I select Dips",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I enter the phone number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Login modal should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "TC004\tAdd a new CC",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc004-add-a-new-cc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I do not have existing credit card",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "I should be able to attach the credit card",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "I should be able to CONTINUE the PushToPlay setup",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "TC005\tChange the existing CC",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc005-change-the-existing-cc",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "I click change credit card",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "I should be able to change the credit card",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "I should be able to CONTINUE the PushToPlay setup",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "TC006\tTerms and Conditions page display - Login and Logout state",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc006-terms-and-conditions-page-display---login-and-logout-state",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "I am not logged in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "I click terms and conditions",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "TnC modal should be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "TC007\tPush to Play Opt in for favourites",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc007-push-to-play-opt-in-for-favourites",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I select Favourites tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "I should be able to CONTINUE the PushToPlay setup",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "TC008\tPush to Play Opt in for Dips",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc008-push-to-play-opt-in-for-dips",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "I select any dips from Dips tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "I should be able to CONTINUE the PushToPlay setup",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "TC009\tPush to play cancel",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc009-push-to-play-cancel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 58,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "I select any dips from Dips tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "I click continue",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "I should be able to CANCEL the PushToPlay setup",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "TC010\tPush to play - Create a second opt in",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc010-push-to-play---create-a-second-opt-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "I have existing PushToPlay notification",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "I start new PushToPlay opt in",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "I should get warning message that existing notification will be removed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 68,
+        "name": "TC011\tEdit a favourite with same wager that is connected to P2P",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc011-edit-a-favourite-with-same-wager-that-is-connected-to-p2p",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 69,
+            "name": "I have existing PushToPlay notification",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "I edit favourite without changing the wager amount",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 71,
+            "name": "my PushToPlay settings should be updated accordingly",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "TC012\tEdit a favourite with different wager that is connected to P2P",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc012-edit-a-favourite-with-different-wager-that-is-connected-to-p2p",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 74,
+            "name": "I have existing PushToPlay notification",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 75,
+            "name": "I edit favourite by changing the wager amount",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 76,
+            "name": "my PushToPlay settings should be updated accordingly",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 78,
+        "name": "TC013\tDelete a favourite that is connected to P2P",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc013-delete-a-favourite-that-is-connected-to-p2p",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 79,
+            "name": "I have existing PushToPlay notification",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80,
+            "name": "I delete the favourite",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 81,
+            "name": "my PushToPlay settings should be deleted",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 83,
+        "name": "TC014\tError - Dips/Favourites selection validation",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc014-error---dips/favourites-selection-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 84,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 85,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 86,
+            "name": "I dont select any Dips or favourites",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 87,
+            "name": "I should get error message for ticket type selection",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 89,
+        "name": "TC015\tError - Phone number field validation- null, more than 8 digits",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc015-error---phone-number-field-validation--null,-more-than-8-digits",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 90,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 91,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 92,
+            "name": "I dont enter any phone number",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 93,
+            "name": "I should get error message for empty phone number",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 94,
+            "name": "I dont enter NZ standard number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 95,
+            "name": "I should get error message for invalid phone number",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 97,
+        "name": "TC016\tError - Without Credit card",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc016-error---without-credit-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 98,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 99,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 100,
+            "name": "I dont enter any phone number",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 101,
+            "name": "Continue button should not be enabled",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 103,
+        "name": "TC017\tError - Duplicate mobile number",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc017-error---duplicate-mobile-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 104,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 105,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 106,
+            "name": "I enter duplicate phone number",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 107,
+            "name": "I should get error message for duplicate phone number",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 109,
+        "name": "TC018\tError - Incorrect Code from SMS",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc018-error---incorrect-code-from-sms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 110,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 111,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 112,
+            "name": "I start new PushToPlay opt in",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 113,
+            "name": "I enter Invalid verification code",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 114,
+            "name": "error message should be displayed for wrong verification code",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 116,
+        "name": "TC019\tUser Opts out",
+        "description": "",
+        "id": "to-test-all-the-regression-scenarios;tc019-user-opts-out",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 117,
+            "name": "I have existing PushToPlay notification",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 118,
+            "name": "I click Stop from Settings page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 119,
+            "name": "my PushToPlay settings should be deleted",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test all the regression scenarios",
+    "description": "",
+    "id": "to-test-all-the-regression-scenarios",
+    "keyword": "Feature",
+    "uri": "Regression.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User successfully completes PushToPlay set up",
+        "description": "",
+        "id": "smoke-test;user-successfully-completes-pushtoplay-set-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am logged in already",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I navigate to PushToPlay homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Fill all the fields and Continue",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I enter correct verification code",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should get success message",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "the details should be displayed in My Accounts page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Smoke test",
+    "description": "",
+    "id": "smoke-test",
+    "keyword": "Feature",
+    "uri": "smoke.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@all"
+      }
+    ]
+  }
+]

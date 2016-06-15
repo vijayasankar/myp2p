@@ -1,0 +1,1465 @@
+<html><head><style type="text/css">h1 {background-color:#9999CC}
+h2 {background-color:#BBBBCC}
+h3 {background-color:#DDDDFF}
+th {border:1px solid black;background-color:#CCCCDD;}
+td{border:1px solid black;}
+.none {border:0px none black;}
+table{border:1px solid black;border-collapse: collapse;}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}</style><title>Cucumber Steps Usage Report</title></head><body><h1>Cucumber Usage Statistics</h1><h2>Overview Graph</h2><p><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="400"><defs><filter id="f1" x="0" y="0" width="200%" height="200%"><feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" /><feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" /><feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter><radialGradient id="grad1" cx="0%" cy="100%" r="150%" fx="0%" fy="100%"><stop offset="0%" style="stop-color:white;stop-opacity:0.1" /><stop offset="100%" style="stop-color:gold;stop-opacity:0.7" /></radialGradient><linearGradient id="grad2" cx="0%" cy="100%" r="150%" fx="0%" fy="100%"><stop offset="0%" style="stop-color:red;stop-opacity:0.7" /><stop offset="50%" style="stop-color:yellow;stop-opacity:0.7" /><stop offset="100%" style="stop-color:green;stop-opacity:0.7" /></linearGradient></defs><rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad1)" filter="url(#f1)" /><line x1="40" y1="30" x2="40" y2="300" style="stroke:black;stroke-width:1" /><line x1="40" y1="300" x2="350" y2="300" style="stroke:black;stroke-width:1" /><polygon points="35,50 40,30 45,50" style="fill:black;stroke:black;stroke-width:1"/><polygon points="350,300 330,305 330,295" style="fill:black;stroke:black;stroke-width:1"/><polygon points="40,300 40,300 56,67 73,259 90,294 107,294 124,294 141,300 158,300 175,300 191,300 208,300 225,300 242,294 259,300 276,300 293,294 310,300" style="stroke:black;stroke-width:1"  fill="url(#grad2)" /><line x1="40" y1="300" x2="40" y2="305" style="stroke:black;stroke-width:1" /><text x="40" y="310" font-size = "8">0</text><line x1="73" y1="300" x2="73" y2="305" style="stroke:black;stroke-width:1" /><text x="73" y="310" font-size = "8">2</text><line x1="107" y1="300" x2="107" y2="305" style="stroke:black;stroke-width:1" /><text x="107" y="310" font-size = "8">4</text><line x1="141" y1="300" x2="141" y2="305" style="stroke:black;stroke-width:1" /><text x="141" y="310" font-size = "8">6</text><line x1="175" y1="300" x2="175" y2="305" style="stroke:black;stroke-width:1" /><text x="175" y="310" font-size = "8">8</text><line x1="208" y1="300" x2="208" y2="305" style="stroke:black;stroke-width:1" /><text x="208" y="310" font-size = "8">10</text><line x1="242" y1="300" x2="242" y2="305" style="stroke:black;stroke-width:1" /><text x="242" y="310" font-size = "8">12</text><line x1="276" y1="300" x2="276" y2="305" style="stroke:black;stroke-width:1" /><text x="276" y="310" font-size = "8">14</text><line x1="40" y1="300" x2="35" y2="300" style="stroke:black;stroke-width:1" /><text x="35" y="300" transform="rotate(-90 35,300)" font-size = "8">0</text><line x1="40" y1="266" x2="35" y2="266" style="stroke:black;stroke-width:1" /><text x="35" y="266" transform="rotate(-90 35,266)" font-size = "8">5</text><line x1="40" y1="232" x2="35" y2="232" style="stroke:black;stroke-width:1" /><text x="35" y="232" transform="rotate(-90 35,232)" font-size = "8">10</text><line x1="40" y1="198" x2="35" y2="198" style="stroke:black;stroke-width:1" /><text x="35" y="198" transform="rotate(-90 35,198)" font-size = "8">15</text><line x1="40" y1="163" x2="35" y2="163" style="stroke:black;stroke-width:1" /><text x="35" y="163" transform="rotate(-90 35,163)" font-size = "8">20</text><line x1="40" y1="129" x2="35" y2="129" style="stroke:black;stroke-width:1" /><text x="35" y="129" transform="rotate(-90 35,129)" font-size = "8">25</text><line x1="40" y1="95" x2="35" y2="95" style="stroke:black;stroke-width:1" /><text x="35" y="95" transform="rotate(-90 35,95)" font-size = "8">30</text><line stroke-dasharray="10,10" x1="56.875" y1="30" x2="56.875" y2="300" style="stroke:yellow;stroke-width:3" /><line stroke-dasharray="10,10" x1="71" y1="30" x2="71" y2="300" style="stroke:red;stroke-width:3" /><rect x="60%" y="20%" width="28%" height="20%" stroke="black" stroke-width="1" fill="white" filter="url(#f1)" /><line x1="62%" y1="29%" x2="67%" y2="29%" stroke-dasharray="5,5" style="stroke:red;stroke-width:3" /><text x="69%" y="30%" font-weight = "bold" font-size = "12">Average: 1.9</text><line x1="62%" y1="34%" x2="67%" y2="34%" stroke-dasharray="5,5" style="stroke:yellow;stroke-width:3" /><text x="69%" y="35%" font-weight = "bold" font-size = "12">Median: 1</text><text x="60%" y="55%" font-weight = "bold" font-size = "40" fill="#BBBB00">47.1%</text><text x="66%" y="60%" font-weight = "bold" font-size = "16" fill="#BBBB00">Re-use</text><text x="120" y="330" font-weight = "bold" font-size = "14" >Step re-use count</text><text x="20" y="220" font-weight = "bold" font-size = "14" transform="rotate(-90 20,220)">Steps count</text></svg></p><h2>Overview Table</h2><p><table><tr><th rowspan="2"><a id="top">#</a></th><th rowspan="2">Expression</th><th rowspan="2">Occurences</th><th colspan="5">Duration</th></tr><tr><th>Average</th><th>Median</th><th>Minimal</th><th>Maximal</th><th>Total</th></tr><tr style="background:lightgreen"><td>1</td><td width="60%"><a href="#_5EI-navigate-to-PushToPlay-homepage_24">^I navigate to PushToPlay homepage$</a></td><td>15</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>2</td><td width="60%"><a href="#_5EI-am-logged-in-already_24">^I am logged in already$</a></td><td>12</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>3</td><td width="60%"><a href="#_5EI-have-existing-PushToPlay-notification_24">^I have existing PushToPlay notification$</a></td><td>5</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>4</td><td width="60%"><a href="#_5EI-should-be-able-to-CONTINUE-the-PushToPlay-setup_24">^I should be able to CONTINUE the PushToPlay setup$</a></td><td>4</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>5</td><td width="60%"><a href="#_5EI-am-not-logged-in_24">^I am not logged in$</a></td><td>3</td><td>0.03s</td><td>0.00s</td><td>0.00s</td><td>0.09s</td><td>0.09s</td></tr><tr style="background:lightgreen"><td>6</td><td width="60%"><a href="#_5EI-dont-enter-any-phone-number_24">^I dont enter any phone number$</a></td><td>2</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>7</td><td width="60%"><a href="#_5Emy-PushToPlay-settings-should-be-deleted_24">^my PushToPlay settings should be deleted$</a></td><td>2</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>8</td><td width="60%"><a href="#_5EI-start-new-PushToPlay-opt-in_24">^I start new PushToPlay opt in$</a></td><td>2</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>9</td><td width="60%"><a href="#_5Emy-PushToPlay-settings-should-be-updated-accordingly_24">^my PushToPlay settings should be updated accordingly$</a></td><td>2</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>10</td><td width="60%"><a href="#_5EContinue-button-should-not-be-enabled_24">^Continue button should not be enabled$</a></td><td>2</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>11</td><td width="60%"><a href="#_5EI-select-any-dips-from-Dips-tab_24">^I select any dips from Dips tab$</a></td><td>2</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>12</td><td width="60%"><a href="#_5EI-edit-favourite-without-changing-the-wager-amount_24">^I edit favourite without changing the wager amount$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>13</td><td width="60%"><a href="#_5EI-click-continue_24">^I click continue$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>14</td><td width="60%"><a href="#_5EI-should-get-error-message-for-duplicate-phone-number_24">^I should get error message for duplicate phone number$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:lightgreen"><td>15</td><td width="60%"><a href="#_5EI-click-terms-and-conditions_24">^I click terms and conditions$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>16</td><td width="60%"><a href="#_5EI-select-Dips_24">^I select Dips$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>17</td><td width="60%"><a href="#_5EI-select-Favourites-tab_24">^I select Favourites tab$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>18</td><td width="60%"><a href="#_5EI-click-change-credit-card_24">^I click change credit card$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>19</td><td width="60%"><a href="#_5ECredit-card-details-should-not-be-displayed_24">^Credit card details should not be displayed$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>20</td><td width="60%"><a href="#_5ECredit-card-details-should-be-displayed_24">^Credit card details should be displayed$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>21</td><td width="60%"><a href="#_5EI-should-get-warning-message-that-existing-notification-will-be-removed_24">^I should get warning message that existing notification will be removed$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>22</td><td width="60%"><a href="#_5EI-dont-select-any-Dips-or-favourites_24">^I dont select any Dips or favourites$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>23</td><td width="60%"><a href="#_5Ethe-details-should-be-displayed-in-My-Accounts-page_24">^the details should be displayed in My Accounts page$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>24</td><td width="60%"><a href="#_5EI-do-not-have-existing-credit-card_24">^I do not have existing credit card$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>25</td><td width="60%"><a href="#_5EI-click-Stop-from-Settings-page_24">^I click Stop from Settings page$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>26</td><td width="60%"><a href="#_5EContinue-button-should-be-enabled_24">^Continue button should be enabled$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>27</td><td width="60%"><a href="#_5EI-dont-enter-NZ-standard-number_24">^I dont enter NZ standard number$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>28</td><td width="60%"><a href="#_5EFavourites-should-not-have-existing-favourites_24">^Favourites should not have existing favourites$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>29</td><td width="60%"><a href="#_5EI-should-get-error-message-for-invalid-phone-number_24">^I should get error message for invalid phone number$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:gold"><td>30</td><td width="60%"><a href="#_5EI-should-be-able-to-attach-the-credit-card_24">^I should be able to attach the credit card$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>31</td><td width="60%"><a href="#_5EI-should-get-error-message-for-empty-phone-number_24">^I should get error message for empty phone number$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>32</td><td width="60%"><a href="#_5EI-enter-correct-verification-code_24">^I enter correct verification code$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>33</td><td width="60%"><a href="#_5EI-should-get-error-message-for-ticket-type-selection_24">^I should get error message for ticket type selection$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>34</td><td width="60%"><a href="#_5ETnC-modal-should-be-displayed_24">^TnC modal should be displayed$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>35</td><td width="60%"><a href="#_5EI-should-be-able-to-change-the-credit-card_24">^I should be able to change the credit card$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>36</td><td width="60%"><a href="#_5Eerror-message-should-be-displayed-for-wrong-verification-code_24">^error message should be displayed for wrong verification code$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>37</td><td width="60%"><a href="#_5EI-enter-the-phone-number_24">^I enter the phone number$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>38</td><td width="60%"><a href="#_5EI-should-get-success-message_24">^I should get success message$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>39</td><td width="60%"><a href="#_5EFill-all-the-fields-and-Continue_24">^Fill all the fields and Continue$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>40</td><td width="60%"><a href="#_5EI-delete-the-favourite_24">^I delete the favourite$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>41</td><td width="60%"><a href="#_5ELogin-modal-should-be-displayed_24">^Login modal should be displayed$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>42</td><td width="60%"><a href="#_5EI-edit-favourite-by-changing-the-wager-amount_24">^I edit favourite by changing the wager amount$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>43</td><td width="60%"><a href="#_5EI-enter-duplicate-phone-number_24">^I enter duplicate phone number$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>44</td><td width="60%"><a href="#_5EI-should-be-able-to-CANCEL-the-PushToPlay-setup_24">^I should be able to CANCEL the PushToPlay setup$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr><tr style="background:tomato"><td>45</td><td width="60%"><a href="#_5EI-enter-Invalid-verification-code_24">^I enter Invalid verification code$</a></td><td>1</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td><td>0.00s</td></tr></table></p><h1>Cucumber Usage Detailed Information</h1><p><h3><a id="_5EI-am-logged-in-already_24">^I am logged in already$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I am logged in already</td><td> - </td><td> - </td></tr><tr><td></td><td>7.931E-5</td><td>Regression.feature:12</td></tr><tr><td></td><td>8.2576E-5</td><td>Regression.feature:25</td></tr><tr><td></td><td>7.791E-5</td><td>Regression.feature:32</td></tr><tr><td></td><td>9.1906E-5</td><td>Regression.feature:45</td></tr><tr><td></td><td>9.7505E-5</td><td>Regression.feature:51</td></tr><tr><td></td><td>7.5111E-5</td><td>Regression.feature:57</td></tr><tr><td></td><td>1.10567E-4</td><td>Regression.feature:84</td></tr><tr><td></td><td>1.01237E-4</td><td>Regression.feature:90</td></tr><tr><td></td><td>3.56428E-4</td><td>Regression.feature:98</td></tr><tr><td></td><td>7.4178E-5</td><td>Regression.feature:104</td></tr><tr><td></td><td>5.925E-5</td><td>Regression.feature:110</td></tr><tr><td></td><td>6.9046E-5</td><td>smoke.feature:5</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad1" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:gold;stop-opacity:0.7" /></radialGradient>
+		<linearGradient id="grad3" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:green;stop-opacity:0.7" />
+		<stop offset="50%" style="stop-color:yellow;stop-opacity:0.7" />
+		<stop offset="100%" style="stop-color:red;stop-opacity:0.7" />
+		</linearGradient></defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad1)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<!--<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.6s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">11.6s</text>-->
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+		<polygon
+			points="40,240 40,50 110,50 110,240 110,240 110,240 180,240 180,240 180,240 180,240 250,240 250,240 250,240 250,223 320,223 320,240 "
+			style="stroke:black;stroke-width:1" fill="url(#grad3)" />
+		<text x="68" y="48" font-weight="bold" font-size="14">11</text><line x1="40" y1="240" x2="40" y2="242" style="stroke:black;stroke-width:1" /><text x="42" y="248" font-size="8">0.00</text><text x="-2147483503" y="238" font-weight="bold" font-size="14">0</text><line x1="110" y1="240" x2="110" y2="242" style="stroke:black;stroke-width:1" /><text x="112" y="248" font-size="8">0.00</text><text x="-2147483433" y="238" font-weight="bold" font-size="14">0</text><line x1="180" y1="240" x2="180" y2="242" style="stroke:black;stroke-width:1" /><text x="182" y="248" font-size="8">0.00</text><text x="285" y="221" font-weight="bold" font-size="14">1</text><line x1="250" y1="240" x2="250" y2="242" style="stroke:black;stroke-width:1" /><text x="252" y="248" font-size="8">0.00</text><line x1="320" y1="240" x2="320" y2="242" style="stroke:black;stroke-width:1" /><text x="322" y="248" font-size="8">0.00</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>2.84</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-edit-favourite-without-changing-the-wager-amount_24">^I edit favourite without changing the wager amount$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I edit favourite without changing the wager amount</td><td> - </td><td> - </td></tr><tr><td></td><td>1.9594E-5</td><td>Regression.feature:70</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-click-continue_24">^I click continue$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I click continue</td><td> - </td><td> - </td></tr><tr><td></td><td>2.1926E-5</td><td>Regression.feature:60</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-get-error-message-for-duplicate-phone-number_24">^I should get error message for duplicate phone number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should get error message for duplicate phone number</td><td> - </td><td> - </td></tr><tr><td></td><td>1.5396E-5</td><td>Regression.feature:107</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-click-terms-and-conditions_24">^I click terms and conditions$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I click terms and conditions</td><td> - </td><td> - </td></tr><tr><td></td><td>3.9655E-5</td><td>Regression.feature:41</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-select-Dips_24">^I select Dips$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I select Dips</td><td> - </td><td> - </td></tr><tr><td></td><td>2.7992E-5</td><td>Regression.feature:20</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-select-Favourites-tab_24">^I select Favourites tab$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I select Favourites tab</td><td> - </td><td> - </td></tr><tr><td></td><td>2.0061E-5</td><td>Regression.feature:47</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-dont-enter-any-phone-number_24">^I dont enter any phone number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I dont enter any phone number</td><td> - </td><td> - </td></tr><tr><td></td><td>2.9392E-5</td><td>Regression.feature:92</td></tr><tr><td></td><td>1.5862E-5</td><td>Regression.feature:100</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-click-change-credit-card_24">^I click change credit card$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I click change credit card</td><td> - </td><td> - </td></tr><tr><td></td><td>2.006E-5</td><td>Regression.feature:34</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-am-not-logged-in_24">^I am not logged in$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I am not logged in</td><td> - </td><td> - </td></tr><tr><td></td><td>0.088729761</td><td>Regression.feature:5</td></tr><tr><td></td><td>7.6045E-5</td><td>Regression.feature:18</td></tr><tr><td></td><td>8.9574E-5</td><td>Regression.feature:39</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.03s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.71</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.09s</td></tr><tr><th>Total</th><td>0.09s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5ECredit-card-details-should-not-be-displayed_24">^Credit card details should not be displayed$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Credit card details should not be displayed</td><td> - </td><td> - </td></tr><tr><td></td><td>1.6795E-5</td><td>Regression.feature:8</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5Emy-PushToPlay-settings-should-be-deleted_24">^my PushToPlay settings should be deleted$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>my PushToPlay settings should be deleted</td><td> - </td><td> - </td></tr><tr><td></td><td>1.8195E-5</td><td>Regression.feature:81</td></tr><tr><td></td><td>1.2596E-5</td><td>Regression.feature:119</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-start-new-PushToPlay-opt-in_24">^I start new PushToPlay opt in$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I start new PushToPlay opt in</td><td> - </td><td> - </td></tr><tr><td></td><td>2.5659E-5</td><td>Regression.feature:65</td></tr><tr><td></td><td>1.3063E-5</td><td>Regression.feature:112</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5ECredit-card-details-should-be-displayed_24">^Credit card details should be displayed$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Credit card details should be displayed</td><td> - </td><td> - </td></tr><tr><td></td><td>1.9128E-5</td><td>Regression.feature:14</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-have-existing-PushToPlay-notification_24">^I have existing PushToPlay notification$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I have existing PushToPlay notification</td><td> - </td><td> - </td></tr><tr><td></td><td>8.4908E-5</td><td>Regression.feature:64</td></tr><tr><td></td><td>7.3245E-5</td><td>Regression.feature:69</td></tr><tr><td></td><td>1.04969E-4</td><td>Regression.feature:74</td></tr><tr><td></td><td>1.08235E-4</td><td>Regression.feature:79</td></tr><tr><td></td><td>5.4118E-5</td><td>Regression.feature:117</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>-0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-get-warning-message-that-existing-notification-will-be-removed_24">^I should get warning message that existing notification will be removed$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should get warning message that existing notification will be removed</td><td> - </td><td> - </td></tr><tr><td></td><td>2.286E-5</td><td>Regression.feature:66</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-dont-select-any-Dips-or-favourites_24">^I dont select any Dips or favourites$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I dont select any Dips or favourites</td><td> - </td><td> - </td></tr><tr><td></td><td>1.129E-4</td><td>Regression.feature:86</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-be-able-to-CONTINUE-the-PushToPlay-setup_24">^I should be able to CONTINUE the PushToPlay setup$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should be able to CONTINUE the PushToPlay setup</td><td> - </td><td> - </td></tr><tr><td></td><td>1.9127E-5</td><td>Regression.feature:29</td></tr><tr><td></td><td>1.7261E-5</td><td>Regression.feature:36</td></tr><tr><td></td><td>2.146E-5</td><td>Regression.feature:48</td></tr><tr><td></td><td>2.3327E-5</td><td>Regression.feature:54</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5Ethe-details-should-be-displayed-in-My-Accounts-page_24">^the details should be displayed in My Accounts page$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>the details should be displayed in My Accounts page</td><td> - </td><td> - </td></tr><tr><td></td><td>1.6795E-5</td><td>smoke.feature:10</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-do-not-have-existing-credit-card_24">^I do not have existing credit card$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I do not have existing credit card</td><td> - </td><td> - </td></tr><tr><td></td><td>1.9594E-5</td><td>Regression.feature:27</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-click-Stop-from-Settings-page_24">^I click Stop from Settings page$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I click Stop from Settings page</td><td> - </td><td> - </td></tr><tr><td></td><td>2.286E-5</td><td>Regression.feature:118</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EContinue-button-should-be-enabled_24">^Continue button should be enabled$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Continue button should be enabled</td><td> - </td><td> - </td></tr><tr><td></td><td>1.7262E-5</td><td>Regression.feature:15</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-dont-enter-NZ-standard-number_24">^I dont enter NZ standard number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I dont enter NZ standard number</td><td> - </td><td> - </td></tr><tr><td></td><td>2.2393E-5</td><td>Regression.feature:94</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5Emy-PushToPlay-settings-should-be-updated-accordingly_24">^my PushToPlay settings should be updated accordingly$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>my PushToPlay settings should be updated accordingly</td><td> - </td><td> - </td></tr><tr><td></td><td>1.6795E-5</td><td>Regression.feature:71</td></tr><tr><td></td><td>1.4463E-5</td><td>Regression.feature:76</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>-0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EFavourites-should-not-have-existing-favourites_24">^Favourites should not have existing favourites$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Favourites should not have existing favourites</td><td> - </td><td> - </td></tr><tr><td></td><td>1.5862E-5</td><td>Regression.feature:7</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-get-error-message-for-invalid-phone-number_24">^I should get error message for invalid phone number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should get error message for invalid phone number</td><td> - </td><td> - </td></tr><tr><td></td><td>1.8194E-5</td><td>Regression.feature:95</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-be-able-to-attach-the-credit-card_24">^I should be able to attach the credit card$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should be able to attach the credit card</td><td> - </td><td> - </td></tr><tr><td></td><td>2.0061E-5</td><td>Regression.feature:28</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-get-error-message-for-empty-phone-number_24">^I should get error message for empty phone number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should get error message for empty phone number</td><td> - </td><td> - </td></tr><tr><td></td><td>3.4057E-5</td><td>Regression.feature:93</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-enter-correct-verification-code_24">^I enter correct verification code$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I enter correct verification code</td><td> - </td><td> - </td></tr><tr><td></td><td>2.426E-5</td><td>smoke.feature:8</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-get-error-message-for-ticket-type-selection_24">^I should get error message for ticket type selection$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should get error message for ticket type selection</td><td> - </td><td> - </td></tr><tr><td></td><td>4.0121E-5</td><td>Regression.feature:87</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5ETnC-modal-should-be-displayed_24">^TnC modal should be displayed$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>TnC modal should be displayed</td><td> - </td><td> - </td></tr><tr><td></td><td>2.9858E-5</td><td>Regression.feature:42</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EContinue-button-should-not-be-enabled_24">^Continue button should not be enabled$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Continue button should not be enabled</td><td> - </td><td> - </td></tr><tr><td></td><td>1.6795E-5</td><td>Regression.feature:9</td></tr><tr><td></td><td>1.5396E-5</td><td>Regression.feature:101</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>-0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-be-able-to-change-the-credit-card_24">^I should be able to change the credit card$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should be able to change the credit card</td><td> - </td><td> - </td></tr><tr><td></td><td>1.8662E-5</td><td>Regression.feature:35</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5Eerror-message-should-be-displayed-for-wrong-verification-code_24">^error message should be displayed for wrong verification code$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>error message should be displayed for wrong verification code</td><td> - </td><td> - </td></tr><tr><td></td><td>2.1926E-5</td><td>Regression.feature:114</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-enter-the-phone-number_24">^I enter the phone number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I enter the phone number</td><td> - </td><td> - </td></tr><tr><td></td><td>1.7728E-5</td><td>Regression.feature:21</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-get-success-message_24">^I should get success message$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should get success message</td><td> - </td><td> - </td></tr><tr><td></td><td>2.1461E-5</td><td>smoke.feature:9</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-select-any-dips-from-Dips-tab_24">^I select any dips from Dips tab$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I select any dips from Dips tab</td><td> - </td><td> - </td></tr><tr><td></td><td>2.426E-5</td><td>Regression.feature:53</td></tr><tr><td></td><td>1.6795E-5</td><td>Regression.feature:59</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>-0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EFill-all-the-fields-and-Continue_24">^Fill all the fields and Continue$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Fill all the fields and Continue</td><td> - </td><td> - </td></tr><tr><td></td><td>3.6389E-5</td><td>smoke.feature:7</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-delete-the-favourite_24">^I delete the favourite$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I delete the favourite</td><td> - </td><td> - </td></tr><tr><td></td><td>3.4523E-5</td><td>Regression.feature:80</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5ELogin-modal-should-be-displayed_24">^Login modal should be displayed$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>Login modal should be displayed</td><td> - </td><td> - </td></tr><tr><td></td><td>2.1927E-5</td><td>Regression.feature:22</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-edit-favourite-by-changing-the-wager-amount_24">^I edit favourite by changing the wager amount$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I edit favourite by changing the wager amount</td><td> - </td><td> - </td></tr><tr><td></td><td>2.3326E-5</td><td>Regression.feature:75</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-enter-duplicate-phone-number_24">^I enter duplicate phone number$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I enter duplicate phone number</td><td> - </td><td> - </td></tr><tr><td></td><td>1.7262E-5</td><td>Regression.feature:106</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-navigate-to-PushToPlay-homepage_24">^I navigate to PushToPlay homepage$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I navigate to PushToPlay homepage</td><td> - </td><td> - </td></tr><tr><td></td><td>2.2394E-5</td><td>Regression.feature:6</td></tr><tr><td></td><td>1.6329E-5</td><td>Regression.feature:13</td></tr><tr><td></td><td>1.7729E-5</td><td>Regression.feature:19</td></tr><tr><td></td><td>1.6329E-5</td><td>Regression.feature:26</td></tr><tr><td></td><td>1.9127E-5</td><td>Regression.feature:33</td></tr><tr><td></td><td>2.9392E-5</td><td>Regression.feature:40</td></tr><tr><td></td><td>1.8661E-5</td><td>Regression.feature:46</td></tr><tr><td></td><td>2.286E-5</td><td>Regression.feature:52</td></tr><tr><td></td><td>1.7262E-5</td><td>Regression.feature:58</td></tr><tr><td></td><td>4.572E-5</td><td>Regression.feature:85</td></tr><tr><td></td><td>3.4523E-5</td><td>Regression.feature:91</td></tr><tr><td></td><td>1.6795E-5</td><td>Regression.feature:99</td></tr><tr><td></td><td>1.9594E-5</td><td>Regression.feature:105</td></tr><tr><td></td><td>1.4929E-5</td><td>Regression.feature:111</td></tr><tr><td></td><td>1.8661E-5</td><td>smoke.feature:6</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad1" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:gold;stop-opacity:0.7" /></radialGradient>
+		<linearGradient id="grad3" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:green;stop-opacity:0.7" />
+		<stop offset="50%" style="stop-color:yellow;stop-opacity:0.7" />
+		<stop offset="100%" style="stop-color:red;stop-opacity:0.7" />
+		</linearGradient></defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad1)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<!--<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.6s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">11.6s</text>-->
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+		<polygon
+			points="40,240 40,50 96,50 96,240 96,240 96,202 152,202 152,240 152,240 152,221 208,221 208,240 208,240 208,221 264,221 264,240 264,240 264,221 320,221 320,240 "
+			style="stroke:black;stroke-width:1" fill="url(#grad3)" />
+		<text x="61" y="48" font-weight="bold" font-size="14">10</text><line x1="40" y1="240" x2="40" y2="242" style="stroke:black;stroke-width:1" /><text x="42" y="248" font-size="8">0.00</text><text x="124" y="200" font-weight="bold" font-size="14">2</text><line x1="96" y1="240" x2="96" y2="242" style="stroke:black;stroke-width:1" /><text x="98" y="248" font-size="8">0.00</text><text x="180" y="219" font-weight="bold" font-size="14">1</text><line x1="152" y1="240" x2="152" y2="242" style="stroke:black;stroke-width:1" /><text x="154" y="248" font-size="8">0.00</text><text x="236" y="219" font-weight="bold" font-size="14">1</text><line x1="208" y1="240" x2="208" y2="242" style="stroke:black;stroke-width:1" /><text x="210" y="248" font-size="8">0.00</text><text x="292" y="219" font-weight="bold" font-size="14">1</text><line x1="264" y1="240" x2="264" y2="242" style="stroke:black;stroke-width:1" /><text x="266" y="248" font-size="8">0.00</text><line x1="320" y1="240" x2="320" y2="242" style="stroke:black;stroke-width:1" /><text x="322" y="248" font-size="8">0.00</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-should-be-able-to-CANCEL-the-PushToPlay-setup_24">^I should be able to CANCEL the PushToPlay setup$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I should be able to CANCEL the PushToPlay setup</td><td> - </td><td> - </td></tr><tr><td></td><td>1.5862E-5</td><td>Regression.feature:61</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p><h3><a id="_5EI-enter-Invalid-verification-code_24">^I enter Invalid verification code$</a></h3><p><table><tr><th>Step Name</th><th>Duration</th><th>Location</th></tr><tr><td>I enter Invalid verification code</td><td> - </td><td> - </td></tr><tr><td></td><td>1.6329E-5</td><td>Regression.feature:113</td></tr></table></p><p><table class="none"><tr><td class="none"><svg  xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="300">
+			<filter id="f1" x="0" y="0" width="200%" height="200%">
+		<feOffset result="offOut" in="SourceAlpha" dx="10" dy="10" />
+		<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" /></filter>
+		<radialGradient id="grad4" cx="0%" cy="100%" r="150%" fx="0%"
+			fy="100%">
+		<stop offset="0%" style="stop-color:white;stop-opacity:0.1" />
+		<stop offset="100%" style="stop-color:silver;stop-opacity:0.7" /></radialGradient>
+	</defs>
+<rect width="90%" height="90%" stroke="black" stroke-width="1" fill="url(#grad4)" filter="url(#f1)"/>
+			<line x1="30" y1="30" x2="30" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<line x1="30" y1="240" x2="350" y2="240"
+			style="stroke:black;stroke-width:1" />
+		<polygon points="25,50 30,30 35,50"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<polygon points="350,240 330,245 330,235"
+			style="fill:black;stroke:black;stroke-width:1" />
+		<!-- Scale Marks-->
+		<line x1="40" y1="240" x2="40" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="42" y="253" font-size="8">0.0s</text>
+		<line x1="320" y1="240" x2="320" y2="245"
+			style="stroke:black;stroke-width:1" />
+		<text x="322" y="253" font-size="8">0.0s</text>
+
+		<text x="60" y="220" font-weight="bold" font-size="14"
+			transform="rotate(-90 20,220)">Frequency</text>
+			<text x="140" y="260" font-weight="bold" font-size="14">Duration</text>
+		<!-- Polygon -->
+			<text x="22%" y="55%" font-weight="bold" font-size="120" fill="gray">N/A</text>
+</svg></td><td valign=top class="none"><p><table><tr><th colspan="2">Duration Characteristic</th></tr><tr><th>Average</th><td>0.00s</td></tr><tr><th>Median</th><td>0.00s</td></tr><tr><th>Variance</th><td>0.00</td></tr><tr><th>Skewness</th><td>0.00</td></tr><tr><th>Minimum</th><td>0.00s</td></tr><tr><th>Maximum</th><td>0.00s</td></tr><tr><th>Total</th><td>0.00s</td></tr></table></p></td></tr></table></p><p><a href="#top">To Overview Table</a></p></p></body></html>

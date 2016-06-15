@@ -1,1 +1,714 @@
-[]
+[
+  {
+    "source": "^I am logged in already$",
+    "steps": [
+      {
+        "name": "I am logged in already",
+        "aggregatedDurations": {
+          "average": 13.466947776,
+          "median": 10.246845553
+        },
+        "durations": [
+          {
+            "duration": 11.483896763,
+            "location": "Regression.feature:12"
+          },
+          {
+            "duration": 10.585845368,
+            "location": "Regression.feature:26"
+          },
+          {
+            "duration": 60.383283835,
+            "location": "Regression.feature:33"
+          },
+          {
+            "duration": 7.545271666,
+            "location": "Regression.feature:46"
+          },
+          {
+            "duration": 8.487589352,
+            "location": "Regression.feature:52"
+          },
+          {
+            "duration": 7.642936119,
+            "location": "Regression.feature:58"
+          },
+          {
+            "duration": 13.06902274,
+            "location": "Regression.feature:85"
+          },
+          {
+            "duration": 10.246845553,
+            "location": "Regression.feature:91"
+          },
+          {
+            "duration": 8.149547325,
+            "location": "Regression.feature:99"
+          },
+          {
+            "duration": 11.179052122,
+            "location": "Regression.feature:105"
+          },
+          {
+            "duration": 7.123625484,
+            "location": "Regression.feature:111"
+          },
+          {
+            "duration": 11.383957038,
+            "location": "adhoc.feature:4"
+          },
+          {
+            "duration": 7.789447731,
+            "location": "smokeTest.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click continue$",
+    "steps": [
+      {
+        "name": "I click continue",
+        "aggregatedDurations": {
+          "average": 0.07170949,
+          "median": 0.07170949
+        },
+        "durations": [
+          {
+            "duration": 0.07170949,
+            "location": "Regression.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should get error message for duplicate phone number$",
+    "steps": [
+      {
+        "name": "I should get error message for duplicate phone number",
+        "aggregatedDurations": {
+          "average": 0.000013996,
+          "median": 0.000013996
+        },
+        "durations": [
+          {
+            "duration": 0.000013996,
+            "location": "Regression.feature:108"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click terms and conditions$",
+    "steps": [
+      {
+        "name": "I click terms and conditions",
+        "aggregatedDurations": {
+          "average": 0.166406809,
+          "median": 0.166406809
+        },
+        "durations": [
+          {
+            "duration": 0.166406809,
+            "location": "Regression.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select Dips$",
+    "steps": [
+      {
+        "name": "I select Dips",
+        "aggregatedDurations": {
+          "average": 0.123466398,
+          "median": 0.123466398
+        },
+        "durations": [
+          {
+            "duration": 0.123466398,
+            "location": "Regression.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select Favourites tab$",
+    "steps": [
+      {
+        "name": "I select Favourites tab",
+        "aggregatedDurations": {
+          "average": 0.153249012,
+          "median": 0.153249012
+        },
+        "durations": [
+          {
+            "duration": 0.15617206,
+            "location": "Regression.feature:48"
+          },
+          {
+            "duration": 0.150325964,
+            "location": "adhoc.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I dont enter any phone number$",
+    "steps": [
+      {
+        "name": "I dont enter any phone number",
+        "aggregatedDurations": {
+          "average": 0.000059949,
+          "median": 0.000059949
+        },
+        "durations": [
+          {
+            "duration": 0.000097971,
+            "location": "Regression.feature:93"
+          },
+          {
+            "duration": 0.000021927,
+            "location": "Regression.feature:101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click change credit card$",
+    "steps": [
+      {
+        "name": "I click change credit card",
+        "aggregatedDurations": {
+          "average": 0.000083509,
+          "median": 0.000083509
+        },
+        "durations": [
+          {
+            "duration": 0.000083509,
+            "location": "Regression.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am not logged in$",
+    "steps": [
+      {
+        "name": "I am not logged in",
+        "aggregatedDurations": {
+          "average": 8.831064128,
+          "median": 11.586031047
+        },
+        "durations": [
+          {
+            "duration": 11.586031047,
+            "location": "Regression.feature:5"
+          },
+          {
+            "duration": 2.56883566,
+            "location": "Regression.feature:19"
+          },
+          {
+            "duration": 12.338325677,
+            "location": "Regression.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Credit card details should not be displayed$",
+    "steps": [
+      {
+        "name": "Credit card details should not be displayed",
+        "aggregatedDurations": {
+          "average": 0.033599069,
+          "median": 0.033599069
+        },
+        "durations": [
+          {
+            "duration": 0.033599069,
+            "location": "Regression.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I start new PushToPlay opt in$",
+    "steps": [
+      {
+        "name": "I start new PushToPlay opt in",
+        "aggregatedDurations": {
+          "average": 0.000079777,
+          "median": 0.000079777
+        },
+        "durations": [
+          {
+            "duration": 0.000079777,
+            "location": "Regression.feature:113"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Credit card details should be displayed$",
+    "steps": [
+      {
+        "name": "Credit card details should be displayed",
+        "aggregatedDurations": {
+          "average": 0.075610619,
+          "median": 0.075610619
+        },
+        "durations": [
+          {
+            "duration": 0.075610619,
+            "location": "Regression.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I dont select any Dips or favourites$",
+    "steps": [
+      {
+        "name": "I dont select any Dips or favourites",
+        "aggregatedDurations": {
+          "average": 0.00006718,
+          "median": 0.00006718
+        },
+        "durations": [
+          {
+            "duration": 0.00006718,
+            "location": "Regression.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login successfully$",
+    "steps": [
+      {
+        "name": "I login successfully",
+        "aggregatedDurations": {
+          "average": 0.000083975,
+          "median": 0.000083975
+        },
+        "durations": [
+          {
+            "duration": 0.000083975,
+            "location": "smokeTest.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I do not have existing credit card$",
+    "steps": [
+      {
+        "name": "I do not have existing credit card",
+        "aggregatedDurations": {
+          "average": 0.000071846,
+          "median": 0.000071846
+        },
+        "durations": [
+          {
+            "duration": 0.000071846,
+            "location": "Regression.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Continue button should be enabled$",
+    "steps": [
+      {
+        "name": "Continue button should be enabled",
+        "aggregatedDurations": {
+          "average": 0.032267591,
+          "median": 0.032267591
+        },
+        "durations": [
+          {
+            "duration": 0.032267591,
+            "location": "Regression.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I dont enter NZ standard number$",
+    "steps": [
+      {
+        "name": "I dont enter NZ standard number",
+        "aggregatedDurations": {
+          "average": 0.000082576,
+          "median": 0.000082576
+        },
+        "durations": [
+          {
+            "duration": 0.000082576,
+            "location": "Regression.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Favourites should not have existing favourites$",
+    "steps": [
+      {
+        "name": "Favourites should not have existing favourites",
+        "aggregatedDurations": {
+          "average": 0.181121652,
+          "median": 0.181121652
+        },
+        "durations": [
+          {
+            "duration": 0.181121652,
+            "location": "Regression.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should get error message for invalid phone number$",
+    "steps": [
+      {
+        "name": "I should get error message for invalid phone number",
+        "aggregatedDurations": {
+          "average": 0.000050385,
+          "median": 0.000050385
+        },
+        "durations": [
+          {
+            "duration": 0.000050385,
+            "location": "Regression.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to attach the credit card$",
+    "steps": [
+      {
+        "name": "I should be able to attach the credit card",
+        "aggregatedDurations": {
+          "average": 0.000097505,
+          "median": 0.000097505
+        },
+        "durations": [
+          {
+            "duration": 0.000097505,
+            "location": "Regression.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should get error message for empty phone number$",
+    "steps": [
+      {
+        "name": "I should get error message for empty phone number",
+        "aggregatedDurations": {
+          "average": 0.000064848,
+          "median": 0.000064848
+        },
+        "durations": [
+          {
+            "duration": 0.000064848,
+            "location": "Regression.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should get error message for ticket type selection$",
+    "steps": [
+      {
+        "name": "I should get error message for ticket type selection",
+        "aggregatedDurations": {
+          "average": 0.000112901,
+          "median": 0.000112901
+        },
+        "durations": [
+          {
+            "duration": 0.000112901,
+            "location": "Regression.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^TnC modal should be displayed$",
+    "steps": [
+      {
+        "name": "TnC modal should be displayed",
+        "aggregatedDurations": {
+          "average": 0.035022454,
+          "median": 0.035022454
+        },
+        "durations": [
+          {
+            "duration": 0.035022454,
+            "location": "Regression.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Continue button should not be enabled$",
+    "steps": [
+      {
+        "name": "Continue button should not be enabled",
+        "aggregatedDurations": {
+          "average": 0.032668341,
+          "median": 0.032668341
+        },
+        "durations": [
+          {
+            "duration": 0.032668341,
+            "location": "Regression.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to change the credit card$",
+    "steps": [
+      {
+        "name": "I should be able to change the credit card",
+        "aggregatedDurations": {
+          "average": 0.000040122,
+          "median": 0.000040122
+        },
+        "durations": [
+          {
+            "duration": 0.000040122,
+            "location": "Regression.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^error message should be displayed for wrong verification code$",
+    "steps": [
+      {
+        "name": "error message should be displayed for wrong verification code",
+        "aggregatedDurations": {
+          "average": 0.000061115,
+          "median": 0.000061115
+        },
+        "durations": [
+          {
+            "duration": 0.000061115,
+            "location": "Regression.feature:115"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select any dips from Dips tab$",
+    "steps": [
+      {
+        "name": "I select any dips from Dips tab",
+        "aggregatedDurations": {
+          "average": 0.100083182,
+          "median": 0.100083182
+        },
+        "durations": [
+          {
+            "duration": 0.094241052,
+            "location": "Regression.feature:54"
+          },
+          {
+            "duration": 0.105925312,
+            "location": "Regression.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Fill all the fields and Continue$",
+    "steps": [
+      {
+        "name": "Fill all the fields and Continue",
+        "aggregatedDurations": {
+          "average": 0.000046186,
+          "median": 0.000046186
+        },
+        "durations": [
+          {
+            "duration": 0.000046186,
+            "location": "smokeTest.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I validate title and URL$",
+    "steps": [
+      {
+        "name": "I validate title and URL",
+        "aggregatedDurations": {
+          "average": 0.014185797,
+          "median": 0.014185797
+        },
+        "durations": [
+          {
+            "duration": 0.014185797,
+            "location": "smokeTest.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter duplicate phone number$",
+    "steps": [
+      {
+        "name": "I enter duplicate phone number",
+        "aggregatedDurations": {
+          "average": 0.000026125,
+          "median": 0.000026125
+        },
+        "durations": [
+          {
+            "duration": 0.000026125,
+            "location": "Regression.feature:107"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to PushToPlay homepage$",
+    "steps": [
+      {
+        "name": "I navigate to PushToPlay homepage",
+        "aggregatedDurations": {
+          "average": 6.182590601,
+          "median": 2.035835617
+        },
+        "durations": [
+          {
+            "duration": 3.79473119,
+            "location": "Regression.feature:6"
+          },
+          {
+            "duration": 2.817203037,
+            "location": "Regression.feature:13"
+          },
+          {
+            "duration": 3.096280258,
+            "location": "Regression.feature:20"
+          },
+          {
+            "duration": 1.150756106,
+            "location": "Regression.feature:27"
+          },
+          {
+            "duration": 74.594320363,
+            "location": "Regression.feature:34"
+          },
+          {
+            "duration": 5.4509611,
+            "location": "Regression.feature:41"
+          },
+          {
+            "duration": 1.060444175,
+            "location": "Regression.feature:47"
+          },
+          {
+            "duration": 2.235325045,
+            "location": "Regression.feature:53"
+          },
+          {
+            "duration": 2.018428893,
+            "location": "Regression.feature:59"
+          },
+          {
+            "duration": 1.323183026,
+            "location": "Regression.feature:86"
+          },
+          {
+            "duration": 1.224262672,
+            "location": "Regression.feature:92"
+          },
+          {
+            "duration": 2.053242341,
+            "location": "Regression.feature:100"
+          },
+          {
+            "duration": 1.128206815,
+            "location": "Regression.feature:106"
+          },
+          {
+            "duration": 1.233702452,
+            "location": "Regression.feature:112"
+          },
+          {
+            "duration": 1.450207186,
+            "location": "adhoc.feature:5"
+          },
+          {
+            "duration": 2.865112933,
+            "location": "smokeTest.feature:4"
+          },
+          {
+            "duration": 2.850473202,
+            "location": "smokeTest.feature:8"
+          },
+          {
+            "duration": 0.939790024,
+            "location": "smokeTest.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter Invalid verification code$",
+    "steps": [
+      {
+        "name": "I enter Invalid verification code",
+        "aggregatedDurations": {
+          "average": 0.000087708,
+          "median": 0.000087708
+        },
+        "durations": [
+          {
+            "duration": 0.000087708,
+            "location": "Regression.feature:114"
+          }
+        ]
+      }
+    ]
+  }
+]

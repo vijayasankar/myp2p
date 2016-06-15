@@ -33,5 +33,21 @@
 	<classpathentry kind="lib" path="C:/Users/vr1470/Desktop/VJ/Cucumber Tutorials/Jars/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vr1470/Desktop/VJ/Cucumber Tutorials/Jars/selenium-server-2.53.0.jar"/>
 	<classpathentry kind="lib" path="C:/A_mobileTesting/jars/cucumber-reports-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Downloads/selenium-support-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Downloads/selenium-firefox-driver-2.44.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Desktop/New Space/Jars Extra/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Desktop/New Space/Jars Extra/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Desktop/New Space/Jars Extra/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Downloads/selenium-api-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Downloads/selenium-remote-driver-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Downloads/selenium-htmlunit-driver-2.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vr1470/Downloads/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/A_mobileTesting/jars/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="lib" path="C:/A_mobileTesting/jars/squirrel-sql-3.5.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
